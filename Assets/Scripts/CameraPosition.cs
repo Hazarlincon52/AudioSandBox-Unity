@@ -13,6 +13,7 @@ public class CameraPosition : MonoBehaviour
 
     public GameObject crosshar;
     public GameObject speedMeter;
+    public GameObject escPause;
 
     private bool yes;
     
@@ -54,5 +55,6 @@ public class CameraPosition : MonoBehaviour
         playerMovementScript.enabled = true;
         crosshar.SetActive(true);
         speedMeter.SetActive(true);
+        escPause.SetActive(true);
     }
 }
